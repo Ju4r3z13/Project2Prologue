@@ -18,6 +18,6 @@ Finished the map validation function. So far I have not added abny other check a
 I have also made predicates for the left, right, up, down movement along the grid. As well as I started a function that checks that the movement is valid, that means that the program does not run into a wall or cross a wall.
 
 12/6/2025 11:50 pm
-Now realted to what I worked today:
+Now what I worked today:
 I am working on swolving the movement logic since the program must be able to walk a 2d matrix array. Or at least that is the understandment I have of the solution. This may change however it seems like the most logical option to approach the problem. The program may be able to backtrack, if needed, if it finds itself cornered and it should also be able to do it in the appropriate directions that follow the flow of the maze. 
-I will re-read that part of the instructions to clarify it further but in the meantime I will work on the logic of following the movements given and reacting appropriately given the result of following the trajectory.
+I will re-read that part of the instructions to clarify it further but in the meantime I started working on the logic of following the movements given and reacting appropriately given the result of following the trajectory.

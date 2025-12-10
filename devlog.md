@@ -28,3 +28,6 @@ a) The function to locate the logic of the program at the 's' (start) position o
 b) The function to retrieve the value inside of a cell location to determine the outcome of the movement.
 I will continue and update as I develop the rest of the program.
 I will work on the movement through the maze following a set of instructions.
+
+12/10/2025 1:00 am 
+I finished the "move" and "validate_move" predicate functions. I had to use atoms to do some sort of function overloading with move(). That way I can call the predicate with different parameters and it will move differently. Then validate_move makes sure that the move is within the bounds of the maze and that the move will not drive the program into a wall. 

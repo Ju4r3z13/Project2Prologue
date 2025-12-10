@@ -21,3 +21,10 @@ I have also made predicates for the left, right, up, down movement along the gri
 Now what I worked today:
 I am working on solving the movement logic since the program must be able to walk a 2d matrix array. Or at least that is the understandment I have of the solution. This may change however it seems like the most logical option to approach the problem. The program may be able to backtrack, if needed, if it finds itself cornered and it should also be able to do it in the appropriate directions that follow the flow of the maze. 
 I will re-read that part of the instructions to clarify it further but in the meantime I started working on the logic of following the movements given and reacting appropriately given the result of following the trajectory.
+
+12/10/2025 12:01 am
+Before it turned Dec 10th last night I managed to write:
+a) The function to locate the logic of the program at the 's' (start) position of the maze. 
+b) The function to retrieve the value inside of a cell location to determine the outcome of the movement.
+I will continue and update as I develop the rest of the program.
+I will work on the movement through the maze following a set of instructions.

@@ -31,3 +31,10 @@ I will work on the movement through the maze following a set of instructions.
 
 12/10/2025 1:00 am 
 I finished the "move" and "validate_move" predicate functions. I had to use atoms to do some sort of function overloading with move(). That way I can call the predicate with different parameters and it will move differently. Then validate_move makes sure that the move is within the bounds of the maze and that the move will not drive the program into a wall. 
+
+12/10/2025 1:29 am 
+I made some changes. First I added a is_exit predicate which used cell_value() to check whether the value of the cell was 'e' (exit). I then decided to get rid of this new function and the find_start function I made so that I could implement them inside the validate_move. 
+The reasoning was that since in validate_move() I was checking if a wall was in the way I should also use that function to check whether it was a start position or an exit. 
+I then realized that it was not aa good idea unless all moves were going to be instructed. However, for the program to be able to find the exit without using given instructions I could not use it like this since it would strugle with my backtracking. 
+Since I am not working on that part right now I just decide to bring back find_start() and is_exit() I will then see if there is a work around otherwise I might just leave them as helper functions. 
+(This update was written at 1:29 am but I forgot to commit)

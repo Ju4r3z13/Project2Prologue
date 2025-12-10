@@ -41,3 +41,6 @@ Since I am not working on that part right now I just decide to bring back find_s
 
 12/10/2025 2:09 am
 I started writting the main functions using the helpers I have built. find_exit() has now a body that calls to other helper functions. It validates the maze as well as it calls a solver function. I started writing the search function. i will be using a BFS algorithm so I need to make functions to simulate stacks that hold the valid path and the visited stack. I will continue later today.
+
+12/10/2025 10:58 am 
+I have finished my DFS, I used a DFS since I mentioned using stacks earlier but I could have also implemented BFS, this is just for consistency with the ideas I elaborated earlier. I have also finished the function that keeps track of the stack of valid moves across the maze. 

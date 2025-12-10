@@ -44,3 +44,5 @@ I started writting the main functions using the helpers I have built. find_exit(
 
 12/10/2025 10:58 am 
 I have finished my DFS, I used a DFS since I mentioned using stacks earlier but I could have also implemented BFS, this is just for consistency with the ideas I elaborated earlier. I have also finished the function that keeps track of the stack of valid moves across the maze. 
+
+12/10/2025 11:21 most of the code is done, I am now fixing errors. Also writting some helpers that may be useful to make the code cleaner.

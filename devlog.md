@@ -38,3 +38,6 @@ The reasoning was that since in validate_move() I was checking if a wall was in 
 I then realized that it was not aa good idea unless all moves were going to be instructed. However, for the program to be able to find the exit without using given instructions I could not use it like this since it would strugle with my backtracking. 
 Since I am not working on that part right now I just decide to bring back find_start() and is_exit() I will then see if there is a work around otherwise I might just leave them as helper functions. 
 (This update was written at 1:29 am but I forgot to commit)
+
+12/10/2025 2:09 am
+I started writting the main functions using the helpers I have built. find_exit() has now a body that calls to other helper functions. It validates the maze as well as it calls a solver function. I started writing the search function. i will be using a BFS algorithm so I need to make functions to simulate stacks that hold the valid path and the visited stack. I will continue later today.
